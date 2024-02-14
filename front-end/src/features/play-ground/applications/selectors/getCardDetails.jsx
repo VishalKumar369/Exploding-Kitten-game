@@ -1,0 +1,1 @@
+export const getCardDetails = state => state.card;

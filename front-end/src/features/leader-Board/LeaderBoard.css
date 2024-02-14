@@ -1,0 +1,30 @@
+.leader-board{
+    padding: 0px 16px;
+}
+
+.leader-board h2{
+    text-align: center;
+}
+
+.leader-board table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.leader-board table thead{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 4px;
+    height: 56px;
+    font-size: 20px;
+    background-color: #8b0220;
+}
+
+.leader-board table tbody tr{
+    border-bottom: 2px solid #f7ab94;
+    height: 44px;
+    background: linear-gradient(to bottom, #CB6D51 0%, #BC5E42 100%);
+}
+.leader-board table tbody tr td{
+    text-align: center;
+    font-weight: 600;
+}

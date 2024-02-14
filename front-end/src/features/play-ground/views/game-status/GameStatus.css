@@ -1,0 +1,27 @@
+.game-status{
+    width: 30%;
+}
+.status{
+    font-size: 20px;
+    /* font-weight: 600; */
+    padding: 4px 8px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    font-family: fantasy;
+}
+.title{
+    margin-top: 2rem;
+}
+.status-detail,.title{
+    display: flex;
+    justify-content: center;
+}
+.status-detail{
+    color: #1B6;
+    font-family: unset;
+    font-weight: 500;
+}
+.game-status .title, .game-status.status-detail{
+    text-align: center;
+}
